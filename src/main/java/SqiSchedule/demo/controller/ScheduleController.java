@@ -18,7 +18,8 @@ import SqiSchedule.demo.service.ScheduleServiceImpl;
 
 @RestController
 @RequestMapping("/sqi-schedule")
-@CrossOrigin(origins="http://localhost:3000")
+//@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin
 public class ScheduleController {
 	
 	@Autowired
